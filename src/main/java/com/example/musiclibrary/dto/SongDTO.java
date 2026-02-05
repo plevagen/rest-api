@@ -1,4 +1,4 @@
-package com.example.musiclibrary;
+package com.example.musiclibrary.dto;
 
 public class SongDTO {
     public Long id;

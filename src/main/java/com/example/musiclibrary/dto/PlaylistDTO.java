@@ -1,4 +1,5 @@
-package com.example.musiclibrary;
+package com.example.musiclibrary.dto;
+
 import java.util.List;
 
 public class PlaylistDTO {

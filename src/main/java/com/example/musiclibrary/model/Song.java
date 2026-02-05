@@ -1,4 +1,4 @@
-package com.example.musiclibrary;
+package com.example.musiclibrary.model;
 
 import jakarta.persistence.*;
 import java.util.*;
