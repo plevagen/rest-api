@@ -8,7 +8,7 @@ public class Artist {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private int id;
+    private Long id;
     private String name;
 
     @OneToMany(mappedBy = "artist", cascade = CascadeType.ALL, orphanRemoval = true)
@@ -21,7 +21,7 @@ public class Artist {
         this.name = name;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 

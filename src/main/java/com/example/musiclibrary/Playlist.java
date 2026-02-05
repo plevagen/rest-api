@@ -7,7 +7,7 @@ import java.util.*;
 public class Playlist {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    public int id;
+    public Long id;
     public String name;
 
     @ManyToMany
@@ -23,7 +23,7 @@ public class Playlist {
         this.name = name;
     }
 
-    public int getId(){
+    public Long getId(){
         return id;
     }
     public String getName(){

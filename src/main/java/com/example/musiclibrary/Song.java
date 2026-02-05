@@ -7,7 +7,7 @@ import java.util.*;
 public class Song {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    private int id;
+    private Long id;
     private String title;
     private int duration;
 
@@ -24,7 +24,7 @@ public class Song {
         this.duration = duration;
     }
 
-    public int getId(){
+    public Long getId(){
         return id;
     }
     public String getTitle(){
